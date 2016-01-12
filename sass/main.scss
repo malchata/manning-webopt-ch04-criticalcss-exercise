@@ -1,0 +1,14 @@
+// 1. Variables
+@import "variables.scss";
+
+// 2. Reset
+@import "global/_reset.scss";
+
+// 3. Mobile Styles
+@import "global/_small.scss";
+
+// 4. Tablet Styles
+@import "global/_medium.scss";
+
+// 5. Desktop Styles
+@import "global/_large.scss";

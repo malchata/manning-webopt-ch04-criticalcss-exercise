@@ -1,0 +1,17 @@
+{
+  "name": "manning-webopt-ch04-exercise",
+  "version": "1.0.0",
+  "description": "Chapter 4 exercise for the book Web Optimization in Action",
+  "main": "http.js",
+  "dependencies": {
+    "compression": "^1.6.0",
+    "express": "^4.13.3",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Wagner <jeremy.l.wagner@gmail.com> (http://jeremywagner.me)",
+  "license": "ISC"
+}

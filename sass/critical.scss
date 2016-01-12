@@ -1,0 +1,11 @@
+// 1. Variables
+@import "variables.scss";
+
+// 2. Mobile Styles
+@import "critical/_small.scss";
+
+// 3. Tablet Styles
+@import "critical/_medium.scss";
+
+// 4. Desktop Styles
+@import "critical/_large.scss";
