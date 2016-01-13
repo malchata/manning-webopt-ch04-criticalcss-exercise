@@ -30,9 +30,9 @@
 
 	.nav{
 		position: static;
-		transform: translateY(0);
-		transition: initial;
 		flex-flow: row nowrap;
+		height: auto;
+		opacity: 1;
 
 		&:hover .navItem{
 			will-change: background-color, color;
@@ -49,5 +49,10 @@
 			background-color: @white;
 			color: @red;
 		}
+	}
+
+	.destinations{
+		border-left: .0625rem solid @grey;
+		border-right: .0625rem solid @grey;
 	}
 }
